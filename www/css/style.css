@@ -1,0 +1,74 @@
+*{margin:0;padding:0;}
+aside,section,article,p,div,span,figure,figcaption,img,input,form,html, footer, header,nav, p, ul, li{margin:0;padding:0;}
+ul{list-style:none;}
+.clear{clear:both;height:0;}
+:focus{outline:none;}
+ul:after{clear:both;	display:block;content:"";}
+html{font-smooth:always;}
+img{	max-width:100%;border:none;vertical-align:bottom;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;	-o-user-select:none;}
+button{-webkit-appearance:none;}
+
+body {
+  background: rgba(0, 0, 0, 0) url("../img/bg.jpg") repeat scroll 0 0 / cover ;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+html, body {
+  height: 100%;
+}
+
+.middle_text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main_wrapper {
+  display: table;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.loding_scree img {
+  display: inline-block;
+}
+.loding_scree h1 {
+  font-family: century gothic;
+  font-size:48px;
+}
+.log_buttons a {
+  border: 1px solid;
+  border-radius: 4px;
+  /*color: #fff;*/
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 250px;
+}
+.log_buttons {
+  margin-top: 40px;
+}
+.log_buttons li {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+.top_nav a {
+  color: #ccc;
+  font-size: 15px;
+  padding: 7px 5px;
+}
+.top_nav li {
+  display: inline;
+  margin-right: 16px;
+}
+.top_nav {
+  float: left;
+  margin-top: 10px;
+  position: absolute;
+  right: 15px;
+  text-align: right;
+  top: 0;
+  width: 100%;
+}
