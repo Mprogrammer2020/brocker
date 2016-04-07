@@ -7,26 +7,32 @@ angular.module('App', ['ionic', 'firebase'])
       url: '/',
       templateUrl: 'views/home/home.html',    
     })
+
     .state('login', {
       url: '/login',
       templateUrl: 'views/login/login.html',    
     })
+
     .state('forget-password', {
       url: '/forget-password',
       templateUrl: 'views/forget-password/forget-password.html',    
     })
+
     .state('contact', {
       url: '/contact',
       templateUrl: 'views/contact/contact.html',     
     })
+
     .state('learn', {
       url: '/learn',
       templateUrl: 'views/learn/learn.html',     
     })
+
     .state('search', {
       url: '/search',
       templateUrl: 'views/search/search.html',     
     })
+    
     .state('search_result', {
       url: '/search_result',
       templateUrl: 'views/search_result/search_result.html',     
