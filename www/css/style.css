@@ -358,8 +358,8 @@ span {
 }
 .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
   position: absolute;
-  margin-top: -3px;
-  margin-left: -20px;
+  margin-top: 3px;
+  margin-left: -21px;
 }
 .header {
   padding: 20px;
@@ -611,9 +611,11 @@ span {
   font-weight: normal;
 }
 .broker_details input, select {
-  font-size: 14px;
-  height: auto;
-  padding: 10px 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    height: auto;
+    padding: 10px 13px;
 }
 .broker_details select {
   font-size: 14px;
