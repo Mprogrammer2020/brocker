@@ -79,7 +79,17 @@ angular.module('App', ['ionic', 'firebase'])
 
     .state('new_quote',{
       url: '/new_quote',
-      templateUrl: 'views/new_quote/new_quote.html'     
+      templateUrl: 'views/new_quote/new_quote.html'  
+    })
+
+    .state('current_quote',{
+      url: '/current_quote',
+      templateUrl: 'views/current_quote/current_quote.html'  
+    })
+
+    .state('calculated_result',{
+      url: '/calculated_result',
+      templateUrl: 'views/calculated_result/calculated_result.html'  
     });
 
   $urlRouterProvider.otherwise('/');

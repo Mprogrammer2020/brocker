@@ -356,10 +356,14 @@ span {
   padding: 4px;
   top: 1px;
 }
-.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
-  position: absolute;
-  margin-top: 3px;
-  margin-left: -21px;
+.ng-pristine ng-valid.checkbox input {
+
+
+}
+.select_form .checkbox input {
+    margin-top: -14px;
+    position: relative;
+    top: 24px;
 }
 .header {
   padding: 20px;
@@ -656,4 +660,65 @@ span {
 .main_broker_cont.loan {
   border-bottom: medium none;
   padding-bottom: 80px;
+}
+.calculated_result {
+  background: #d8d8d8 none repeat scroll 0 0;
+  float: left;
+  width: 100%;
+}
+.print_email {
+  border-top: 1px solid #ababab;
+  margin-top: 50px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.print::before {
+  content: url("../img/print.png");
+  left: 0;
+  position: absolute;
+  top: 13px;
+}
+.print {
+  border-right: 1px solid;
+  padding: 20px 0;
+  position: relative;
+}
+.email::before {
+  content: url("../img/email.png");
+  left: 0;
+  position: absolute;
+  top: 10px;
+}
+.email {
+  padding: 20px 36px;
+  position: relative;
+  text-align: left;
+}
+.apply_button {
+  border: 1px solid;
+  border-radius: 6px;
+  color: #606060;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 20px;
+  top: 20px;
+  width: 300px;
+}
+.result p {
+  color: #606060;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.current label, .form-group {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.current_header {
+  border: medium none;
+}
+.current_header_right {
+  color: #fff;
+  padding: 20px;
+  text-align: right;
 }
