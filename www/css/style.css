@@ -529,3 +529,129 @@ span {
   top: 3px;
 
 }
+.artboards {
+  background: #e6e6e6 none repeat scroll 0 0;
+}
+.quote_header {
+  background: #372a31 none repeat scroll 0 0;
+  float: left;
+  width: 100%;
+}
+
+.header_left::before {
+  content: "";
+  font-family: fontAwesome;
+  font-size: 28px;
+  left: 21px;
+  position: absolute;
+  top: 1pc;
+}
+.header_left {
+  border-top: 10px solid #2f9242;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px 50px;
+  position: relative;
+}
+
+.header_right nav {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  margin-bottom: 0;
+  min-height: auto;
+  padding: 10px 0;
+  text-align: right;
+}
+.header_right {
+  border-top: 10px solid #543e49;
+}
+.header_right nav a {
+  color: #6a6367 !important;
+  font-size: 15px;
+  padding: 10px;
+}
+.header_right li:nth-child(5) {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
+.broker_detail_cont {
+  float: left;
+  width: 100%;
+}
+.broker_details {
+  margin: auto;
+  width: 60%;
+}
+.broker_details h2 {
+  color: #3b2f35;
+}
+.main_broker_cont {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  float: left;
+  padding: 30px 0;
+  width: 100%;
+}
+.broker_details ol {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  margin: 0;
+  padding: 0;
+}
+.amount_text {
+  background-image: url("../img/crncy.png");
+  background-position: 7px center;
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  text-align: right;
+} 
+.broker_details label {
+  color: #606060;
+  font-size: 15px;
+  font-weight: normal;
+}
+.broker_details input, select {
+  font-size: 14px;
+  height: auto;
+  padding: 10px 13px;
+}
+.broker_details select {
+  font-size: 14px;
+  height: auto;
+  padding: 10px;
+}
+.select_outer::after {
+  background: #fff none repeat scroll 0 0;
+  bottom: 1px;
+  color: #606060;
+  content: url("../img/black.png");
+  font-family: fontawesome;
+  line-height: 37px;
+  pointer-events: none;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 1px;
+  width: 29px;
+}
+.select_outer {
+  display: block;
+  position: relative;
+}
+.broker_details .btn {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #000;
+  text-align: left;
+  width: 100%;
+}
+.select_outer.buttn::after {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.help_text {
+  color: #626262;
+  margin-top: 20px;
+}
+.main_broker_cont.loan {
+  border-bottom: medium none;
+  padding-bottom: 80px;
+}
