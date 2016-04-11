@@ -5,9 +5,9 @@ angular.module('App', ['ionic', 'firebase'])
 
     .state('home', {
       url: '/',
-      templateUrl: 'views/home/home.html',    
+      templateUrl: 'views/home/home.html'   
     })
-
+    
     .state('login', {
       url: '/login',
       templateUrl: 'views/login/login.html',    
@@ -15,29 +15,68 @@ angular.module('App', ['ionic', 'firebase'])
 
     .state('forget-password', {
       url: '/forget-password',
-      templateUrl: 'views/forget-password/forget-password.html',    
+      templateUrl: 'views/forget-password/forget-password.html'   
     })
 
     .state('contact', {
       url: '/contact',
-      templateUrl: 'views/contact/contact.html',     
+      templateUrl: 'views/contact/contact.html'    
     })
 
     .state('learn', {
       url: '/learn',
-      templateUrl: 'views/learn/learn.html',     
+      templateUrl: 'views/learn/learn.html'     
     })
 
     .state('search', {
       url: '/search',
-      templateUrl: 'views/search/search.html',     
+      templateUrl: 'views/search/search.html'    
     })
     
     .state('search_result', {
       url: '/search_result',
-      templateUrl: 'views/search_result/search_result.html',     
+      templateUrl: 'views/search_result/search_result.html'    
+    })
+
+     .state('select_accredition',{
+      url: '/select_accredition',
+      templateUrl: 'views/select_accredition/select_accredition.html'    
+    })
+
+    .state('selected_business',{
+      url: '/selected_business',
+      templateUrl: 'views/selected_business/selected_business.html'     
+    })
+    .state('select_again',{
+      url: '/select_again',
+      templateUrl: 'views/select_again/select_again.html'     
+    })
+    .state('submission',{
+      url: '/submission',
+      templateUrl: 'views/submission/submission.html'     
+    })
+
+    .state('contact_form',{
+      url: '/contact_form',
+      templateUrl: 'views/contact_form/contact_form.html' 
+
+    })
+
+    .state('logout',{
+      url: '/logout',
+      templateUrl: 'views/logout/logout.html'     
+    })
+
+    .state('home_page',{
+      url: '/home_page',
+      templateUrl: 'views/home_page/home_page.html'     
+    })
+
+    .state('my_quotes',{
+      url: '/my_quotes',
+      templateUrl: 'views/my_quotes/my_quotes.html'     
     });
-    
+
   $urlRouterProvider.otherwise('/');
 })
 
@@ -57,6 +96,6 @@ angular.module('App', ['ionic', 'firebase'])
   if (!firstVisit) {
     $location.url('/');
   }
-})
+});
 
 
