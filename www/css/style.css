@@ -167,9 +167,11 @@ span {
   width: 75%;
 }
 .middle_text.search {
-  display: table-cell;
+  display: inline-block;
+  margin: auto;
   padding-top: 90px;
   vertical-align: top;
+  width: 75%;
 }
 .search p {
   color: #fff;
@@ -709,10 +711,6 @@ span {
   color: #606060;
   font-size: 15px;
   margin-bottom: 5px;
-}
-.current label, .form-group {
-  margin: 0 !important;
-  padding: 0 !important;
 }
 .current_header {
   border: medium none;

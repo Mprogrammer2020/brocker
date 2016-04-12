@@ -90,6 +90,11 @@ angular.module('App', ['ionic', 'firebase'])
     .state('calculated_result',{
       url: '/calculated_result',
       templateUrl: 'views/calculated_result/calculated_result.html'  
+    })
+    
+    .state('all',{
+      url: '/all',
+      templateUrl: 'views/all/all.html'  
     });
 
   $urlRouterProvider.otherwise('/');
