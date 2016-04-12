@@ -324,6 +324,9 @@ span {
   border: 1px solid #2e6d89;
   box-shadow: none;
 }
+.middle_text.search.fill_detail {
+    width: 100%;
+}
 .contact_form button {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
