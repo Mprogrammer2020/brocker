@@ -10,7 +10,8 @@ angular.module('App', ['ionic', 'firebase'])
     
     .state('login', {
       url: '/login',
-      templateUrl: 'views/login/login.html',    
+      templateUrl: 'views/login/login.html',
+      controller: 'LoginCtrl'
     })
 
     .state('forget-password', {
